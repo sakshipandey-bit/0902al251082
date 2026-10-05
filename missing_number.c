@@ -1,3 +1,5 @@
+
+Question 1- missing number 
 #include <stdio.h>
 
 int main()
