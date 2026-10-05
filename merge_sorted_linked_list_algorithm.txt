@@ -1,0 +1,23 @@
+/*
+AL303 Assignment-1
+Question 2: Merge Two Sorted Linked Lists
+
+Algorithm:
+1. Set P = L1 and Q = L2.
+2. Create an empty merged list.
+3. Compare P->data and Q->data.
+4. Add the smaller node to the merged list and move that pointer forward.
+5. Repeat until either P or Q becomes NULL.
+6. Attach the remaining nodes of the non-empty list.
+7. Return the merged list.
+
+Example:
+L1: 10 -> 30 -> 50 -> 70
+L2: 20 -> 25 -> 40 -> 80
+
+Merged:
+10 -> 20 -> 25 -> 30 -> 40 -> 50 -> 70 -> 80
+
+Time Complexity: O(m + n)
+Space Complexity: O(1)
+*/
